@@ -9,14 +9,19 @@ h1{
     color: #333333;
 }
 
+h3{
+    font-size: 16px;
+}
+
 form{
     margin: 20px auto;
     padding: 10px;
     border-radius: 15px;
-    width: 400px;
+    width: 600px;
     background-color: #FFFFFF;
     border: 2px solid #DDDDDD;
     color: #555555 ;
+    text-align: left;
 }
 
 input[type="radio"]{
@@ -30,7 +35,8 @@ button{
     border-radius: 5px;
     cursor: pointer;
     border: none;
-    box-shadow: #555555;
+    display: block;
+    margin: 0 auto;
 }
 
 button:hover{
@@ -49,4 +55,5 @@ button:hover{
 .incorrecto{
     color: red;
 }
+
 

@@ -12,8 +12,8 @@
         <label for="nombre">Nombre del estudiante</label>
         <input type="text" id="nombre" placeholder="Ingrese su nombre: ">
 
-        <h3>1. Cual es la capital de Japon</h3>
-        <input type="text" name="pregunta1" placeholder="Escribe aquí la capital">
+        <h3>1. ¿Cual es la capital de Japón?</h3>
+        <input type="text"  name="pregunta1" id="pregunta1" placeholder="Escribe aquí la capital" required>
 
         <h3>2. ¿Cual es la capital de Francia?</h3>
         <input type="radio" name="pregunta2" value="A"> A) Madrid <br>
@@ -27,12 +27,14 @@
 
         <h3>4. ¿Quén pintó "La noche estrellada"? (Selecciona una opción)</h3>
         <select id="pregunta4">
-        <option value="">Selecciona...</option>
-        <option value="A">A) Picasso</option>
-        <option value="B">B) Van Gogh</option>
-        <option value="C">C) Da Vinci</option>
-        </select><br><br>
+            <option value="">Selecciona...</option>
+            <option value="A">A) Picasso</option>
+            <option value="B">B) Van Gogh</option>
+            <option value="C">C) Da Vinci</option>
+        </select>
+        <br><br><br>
         <button type="button" onclick="calificarExamen()">Enviar Examen</button>
+        <br>
     </form>
     <div id="resultado"></div>
     <script src="./js/script.js"></script>
